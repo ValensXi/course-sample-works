@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <style>
+       body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff2f2eb;
+        }
+
+        h1 {
+           font-family: Abril Fatface, sans-serif;
+           color: #000000;
+           text-align: center;
+        }
+        
+         h2 {
+           font-family: Abril Fatface, sans-serif;
+           color: #000000;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 80px;
+        }
+
+        a {
+          color: #2abb97;
+          text-decoration: none;
+        }
+
+        a:hover {
+                color: rgba(rgb(68, 19, 128), green, blue, alpha);
+                text-decoration: underline;
+        }
+
+        a:visited {
+                  color: #a32abb;
+                  text-decoration: none;
+        }
+
+        p {
+          font-family: Poppins;
+          line-height: 1.6;
+          color: #000000;
+        } 
+
+        hr {
+           color: rgb(229, 139, 254);
+           width: 800px;
+           height: 1px;
+        }
+    </style>
+</head>
+    <body>
+    <h1>Welcome to My Profile</h1>
+    <img src="https://images2.imgbox.com/4e/67/C2wBGahp_o.jpeg" alt="A profile picture of Valentina">
+    <hr>
+     <h2>A Few Things about Me</h2>
+    <p>Hello, everyone. My name is Valentina and I'm a content creator. I decided to switch from SEO writing to coding and am fascinated by front-end and web design.</p>
+    <p>I started playing with my blog editor in the 2010s, and I love the possibilities of manipulating code to add my personal touch. So, I start my coding journey from here.
+    </p>
+    <h2>My Links</h2>
+    <ul>
+        <li><a href="https://github.com/ValensXi" target="_blank">GitHub</a></li>
+        <li><a href="https://www.instgram.com/valenschirico" target="_blank">Instagram</a></li>
+    </ul>
+    </body>
+</html>
