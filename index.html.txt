@@ -70,7 +70,8 @@
     <h2>My Links</h2>
     <ul>
         <li><a href="https://github.com/ValensXi" target="_blank">GitHub</a></li>
-        <li><a href="https://www.instgram.com/valenschirico" target="_blank">Instagram</a></li>
+        <li><a href="https://www.instagram.com/valenschirico" target="_blank">Instagram</a></li>
     </ul>
     </body>
+
 </html>
