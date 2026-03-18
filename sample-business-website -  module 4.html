@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39cf002496.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Websites by Valens</title>
+ <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* Navigation Styles */
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1000;
+    background-color: rgb(248, 231, 253);
+    box-shadow: 0px 2px 10px rgba(45, 45, 45, 0.52);
+ }
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem
+ }
+
+nav li {
+    margin: 0px;
+ }
+
+nav a {
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    color: #a32abb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border-bottom: 0.3s;
+    padding-bottom: 5px;
+    position: relative;
+    padding: 10px 10px;
+ }
+
+nav a:hover {
+    color: #33142c;
+    text-decoration: underline;
+ }
+
+nav a:visited {
+    color: #666;
+    text-decoration: none;
+ } 
+
+  /* Header Styles */
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    padding-top: 60px;
+    margin-bottom: 2rem;
+    background-image: url("https://images2.imgbox.com/c2/91/YZ941Ukm_o.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 4rem;
+    margin: 15rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    z-index: 500;
+ }
+
+h1, .subtitle {
+    position: relative;
+    z-index: 1;
+ }
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+ }
+
+.subtitle {
+    color: #ffffff;
+    font-size: 1.2rem;
+ }
+
+  /* Copies Formatting */
+
+em {
+    color:  #a32abb;
+    font-style: italic;
+    font-weight: bold;
+}
+     
+body {
+    background-color: #f1ebebeb;
+ }
+
+h2 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 10px;
+ }
+
+h3 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    font-size: 1.25rem;
+    padding: 10px;
+ }
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin: 0, 20px;
+    font-family: Karla, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+ }
+
+a {
+ color: #a32abb;
+ text-decoration: none;
+ }
+
+a:visited {
+    color:#666;
+    text-decoration: none;
+ }
+
+a:hover {
+    color: #33142c;
+    text-decoration: underline;
+ }
+
+li {
+    font-family: Karla, sans-serif;
+ }
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 16px;
+ }
+
+.about-section, .services-section, .why-seo-section, .contact-section {
+    background-color: white;
+    padding: 2rem;
+    margin: 20px 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.list {
+    text-align: center;
+    list-style: none;
+}
+
+.email {
+    color: #a32abb;
+    font-weight: bold;
+}
+
+.email:hover {
+    color: #33142c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.marker {
+    color: #a32abb;
+    text-decoration: underline;
+}
+
+hr {
+    color: #a32abb;
+    margin: 10px;
+}
+
+ /* Footer Styles */
+
+footer {
+    text-align: center;
+    width: 100vw;
+    padding: 1 rem;
+    background-color: rgb(248, 231, 253);
+    box-shadow: 0px 2px 10px rgba(45, 45, 45, 0.52);
+}
+
+.footer-notes p {
+    padding-top: 1rem;
+    color: #666
+}
+
+.footer-notes ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+
+.footer-notes li {
+    margin: 0px; 
+} 
+
+.footer-notes a {
+    color: #a32abb;  
+    transform:color 0.3s;
+} 
+
+.footer-notes a:hover {
+    color: #33142c;
+    transform:color 0.3s;
+} 
+
+.footer-social {
+    margin: 0;
+}
+
+.footer-social a {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-size: 25px;
+}
+
+ </style>
+ </head>
+    <body>
+    <!-- Main Navigation Section -->
+     <nav>
+        <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#why-seo">Why SEO</a></li>
+             <li><a href="#about-me">About Me</a></li>
+             <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+     </nav>
+    <!-- Header Section -->
+     <header id="home">
+        <div class="header-container">
+            <h1>Websites by Valens</h1>
+            <p class="subtitle">Your dream <em>website</em> powered by <em>SEO</em></p>
+        </div>
+     </header>
+    <!-- Main Content Section -->
+     <main class="services-section" id="services">
+        <h2>Complete Web Services</h2>
+             <p>The website you've always dreamed of, created for you and just for you. Let me help you achieve your goal with a customised website that reflects your unique style. With my complete range of web services, I can build and style your website from scratch.</p> 
+             <p>A great idea won't go that far without a strategy: that's what I've learnt in my SEO career.</p>
+             <p>Whether you have a business or a hobby, I can harness SEO techniques to increase your chances of reaching the right audience
+            by ranking for search engine queries. Discover what you can achieve when the power of design meets SEO.</p>
+             <p><a href="#why-seo" class="marker" id="marker">Learn more about SEO</a>.</p>
+            <hr>
+        <h2>What I Offer</h2>
+             <p>You deserve to be seen; which is why it's best to combine web design and SEO.</p>
+             <ul class="list" id="list">
+                 <li><strong>Website Creation</strong></li>
+                 <li><strong>Website Redesign</strong></li>
+                 <li><strong>Keyword Research</strong></li>
+                 <li><strong>Auditing</strong></li>
+                 <li><strong>Competitor Analysis</strong></li>
+                 <li><strong>Content Optimisation</strong>.</li>
+             </ul>
+     </main>
+     <article class="why-seo-section" id="why-seo">
+        <h2>Why SEO Is Important</h2>
+             <p>Let's picture this... You've got a business or hobby that you want to share with everyone (and maybe make a few quids from it). You've got an idea in mind, but you need some technical help to create your space exactly the way you want. That's what I'm here for.</p>
+             <p>Is that all you need? Of course not! Once your website is live, you want to make sure everyone can find. </p>
+             <p>This is where <span style="font-size: 1em, italic;">SEO comes in</span>.</p>
+             <hr>
+        <h2>What Is SEO</h2>
+             <p>SEO stands for Search Engine Optimisation, it's all the techniques and best practices used to make a website stand out in online searches.</p>
+             <br>
+             <p>With the right keywords, placed in the right place, I can help you rank higher than your competitors and help your website appears on search engines
+            and attracts more traffic. More traffic means more visitors, of course, but it also converts into potential customers for your business or a loyal community around your hobby.</p>
+             <p>Let's do it together, <a href="#contact-me" class="marker" id="marker">reach out today</a>!</p>
+     </article>
+     <section class="about-section" id="about-me">
+        <h2>About Valentina</h2>
+             <p>My name is Valentina, I'm a content creator who decided to switch from SEO writing to programming. </p>
+             <p>I'm fascinated by front-end and web design, and the endless opportunities they offer me to express my creative spirit.</p>
+             <p>It all started as a game: in the early 2010s, my blog editor was my playground. There, I learned the basic of coding to add my personal touch to my website, and I look forward to showing you how personal
+        you can be online!</p>
+            <img src="https://images2.imgbox.com/4e/67/C2wBGahp_o.jpeg" title="Nice to meet you!" alt="A profile picture of Valentina">
+        <hr>
+        <h3>My Links</h3>
+             <ul class="list" id="list">
+                 <li><a href="https://github.com/ValensXi" target="_blank">GitHub</a></li>
+                 <li><a href="https://www.instagram.com/valenschirico" target="_blank">Instagram</a></li>
+             </ul>
+     </section>
+     <aside class="contact-section" id="contact-me">
+        <h2>Contact Me</h2>
+             <p>Would you like to know how to make your dream website come true?</p>
+             <p>Get in touch via email at <span class="email">valentina.chirico@gmail.com</span> or a <em>free consultation</em>.</p>
+     </aside>
+    <!-- Footer Section -->
+     <footer>
+        <section class="footer-notes">
+         <p>2026 Websites by Valens&copy;</p>
+            <ul>
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#why-seo">Why SEO</a></li>
+                 <li><a href="#about-me">About Me</a></li>
+                 <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </section>
+         <p class="footer-social">
+                 <a href="https://www.linkedin.com"><i class="fa-brands fa-square-linkedin"></i></a>
+                 <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                 <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+         </p>
+    </footer>
+ </body>
+</html> 
