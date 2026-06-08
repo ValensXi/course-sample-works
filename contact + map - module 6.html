@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39cf002496.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contact Me</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Me</h1>
+        <p>Fill out this form to request a free 1-to-1.</p>
+    </header>
+    <!-- Contact Section -->
+     <main class="contact-container">
+        <section class="contact-info">
+            <h2>My Contact Information</h2>
+            <address>
+                <p><em>Email</em>: madebyvalens@gmail.com</p>
+                <p><em>Mobile</em>: (+44) 1234567</p>
+                <p><em>Address</em>: 123 Sunshine Rd., London, UK</p>
+            </address>
+        </section>
+    <!-- Form Section -->
+    <form id="contact-form" action="#" method="POST">
+    <div class="form-group">
+        <label for="name">Full Name:<input type="text" id="name" name="name" placeholder="I'm..." required minlength="2" required></label>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address:<input type="email" id="email" name="email" placeholder="It's..." required></label>
+    </div>
+    <div class="form-group">
+        <label for="phone">Contact Number:<input type="tel" id="phone" name="phone" placeholder="It's..." pattern="[0-9]{10, }"></label>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="">Please select a subject</option>
+            <option value="general">General Inquiry</option>
+            <option value="optimisation">Optimisation Request</option>
+            <option value="service">New Service</option>
+            <option value="request">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Hello, ... "></textarea>
+    </div>
+    <div class="form-group">
+        <label for="newsletter">
+            <input id="newsletter" name="newsletter" type="checkbox">
+            Subscribe to our newsletter</label>
+    </div>
+    <button type="submit">Send Message</button>
+</form>
+    <!-- Map Section -->
+ <main class="contact-container">
+    <section class="contact-info">
+        <h2>Visit My Office</h2>
+         <p>Let's have a chat about your website, you'll find me a few steps away from Holborn viaduct.</p>
+            <div class="iframe-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.6562727150367!2d-0.110548!3d51.5195218!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba1b782a6ff%3A0x63e80f254b21cb5f!2sWeWork%20-%20Office%20Space%20%26%20Coworking!5e0!3m2!1sit!2suk!4v1780939416527!5m2!1sit!2suk"
+                    title="Google Maps Location"
+                    loading="lazy"
+                    allowfullscreen=""
+                    referrerpolicy="no-referrer-when-downgrade"
+                    sandbox="allow-scripts allow-same-origin allow-popups">
+                    <p>Your browser does not support iframes. Please visit my <a href="https://www.wework.com/en-GB/l/coworking-space/london" target="_blank">location page</a>.</p>                
+                </iframe>
+            </div>
+            <div class="iframe-controls">
+                <button onclick="reloadFrame()">Reload Map</button>
+                <button onclick="toggleFullscreen()">View Fullscreen</button>
+            </div>
+    </section>
+    <br/>
+        <aside class="location-info">
+            <h3>Office & Working Hours</h3>
+            <ul>
+                <li>Monday (office): 9am - 5:15pm</li>
+                <li>Tuesday - Friday (online): 9am - 5:15pm</li>
+            </ul>
+        </aside>
+ </main>
+    <!-- Footer Section -->
+     <footer>
+        <section class="footer-notes">
+         <p>2026 Websites by Valens&copy;</p>
+        </section>
+         <p class="footer-social">
+             <a href="https://www.linkedin.com"><i class="fa-brands fa-square-linkedin"></i></a>
+             <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+             <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+         </p>
+    </footer>
+ </main>
+ </body>
+</html> 
